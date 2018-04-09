@@ -2,11 +2,13 @@
 
 public class Player : MonoBehaviour {
     public float speed = 4;
-    Rigidbody2D rg;
+    Rigidbody2D rb;
 
     public float movement;
 
-	void Start () {
-		
+    void Update () {
+        movement = Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime;  // I like it with deltaTime
 	}
+
+
 }
