@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 471}
   m_MaxSize: {x: 18008, y: 14021}
   vertical: 0
-  controlID: 137
+  controlID: 51
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 14
+  controlID: 52
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -465,23 +465,23 @@ MonoBehaviour:
     height: 275
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5c010000
-    m_LastClickedID: 0
-    m_ExpandedIDs: a6fbffff00000000
+    m_SelectedIDs: ea81ffff
+    m_LastClickedID: -32278
+    m_ExpandedIDs: a6fbffff00000000f0270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Chain
+      m_OriginalName: Chain
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10224
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -528,18 +528,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/BubbleTrouble/Prefab
+    - Assets/BubbleTrouble/Sprites
   m_ViewMode: 1
   m_StartGridSize: 53
   m_LastFolders:
-  - Assets/BubbleTrouble/Prefab
+  - Assets/BubbleTrouble/Sprites
   m_LastFoldersGridSize: 53
   m_LastProjectPath: C:\Users\phill\Desktop\code\unity-bubble-struggle\YodelDaddy
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 48270000
-    m_LastClickedID: 10056
+    m_SelectedIDs: 66270000
+    m_LastClickedID: 10086
     m_ExpandedIDs: 000000002a2700003427000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -595,8 +595,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: b4270000403800000000000014280000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: b4270000403800001428000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -703,9 +703,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 957
+    x: 956
     y: 100
-    width: 403
+    width: 404
     height: 742
   m_PreviewResizer:
     m_CachedPref: 50
