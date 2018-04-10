@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4987513923945674}
   - component: {fileID: 212694846324818086}
   - component: {fileID: 65803767974251440}
-  - component: {fileID: 114651228739315686}
   m_Layer: 0
   m_Name: ChainGraphic
   m_TagString: Untagged
@@ -54,17 +53,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6666667, y: 0.65, z: 0.2}
   m_Center: {x: 0, y: 0.325, z: 0}
---- !u!114 &114651228739315686
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1560980218910682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68c3d96eae90b0d41b9327f89253fbd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &212694846324818086
 SpriteRenderer:
   m_ObjectHideFlags: 1

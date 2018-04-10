@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Chain : MonoBehaviour {
-    public Transform target;
+    public Transform player;
 
     public static bool isFired;
 	void Start () {
@@ -17,7 +17,7 @@ public class Chain : MonoBehaviour {
         }
         else
         {
-            transform.position = target.position;
+            transform.position = player.position;
         }
 	}
 }
