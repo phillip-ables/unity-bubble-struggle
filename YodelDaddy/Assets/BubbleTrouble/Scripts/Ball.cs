@@ -1,16 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Ball : MonoBehaviour {
-
-	// Use this for initialization
+    public Rigidbody2D rb;
+    public Vector2 startSpeed;
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+        rb.AddForce(startSpeed, ForceMode2D.Impulse);
 	}
 }
