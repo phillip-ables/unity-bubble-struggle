@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BubbleTrouble/BubbleStruggle.unity
+- path: Assets/Scenes/BubbleTrouble/BubbleStruggle.unity
   isLoaded: 1
   isActive: 1

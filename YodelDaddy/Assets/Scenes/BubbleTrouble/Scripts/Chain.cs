@@ -11,8 +11,14 @@ public class Chain : MonoBehaviour {
 	}
 	
 	void Update () {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            isFired = true;
+            Debug.Log("Fire!");
+        }
         if (isFired)
         {
+            //we want to effect its scale and such
 
         }
         else
