@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
     private float movement;
 
     void Update () {
-        movement = Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime;  // I like it with deltaTime
+        movement = Input.GetAxisRaw("Horizontal") * speed;  // I like it with deltaTime
 	}
 
     void FixedUpdate()  // physics engine likes for us to update velocity in this
