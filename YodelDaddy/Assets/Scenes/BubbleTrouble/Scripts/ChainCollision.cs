@@ -10,7 +10,7 @@ public class ChainCollision : MonoBehaviour {
 
         if(collision.collider.tag == "ball")
         {
-            Debug.Log("Split ball in two!!");
+            collision.collider.GetComponent<Ball>().Split();
         }
 
     }
