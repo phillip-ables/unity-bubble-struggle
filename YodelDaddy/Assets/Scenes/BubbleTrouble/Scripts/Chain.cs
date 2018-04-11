@@ -4,26 +4,26 @@ using UnityEngine;
 
 public class Chain : MonoBehaviour {
     public Transform player;
+    public float speed;
 
-    public static bool isFired;
+    public static bool IsFired;
 	void Start () {
-        isFired = false;
+        IsFired = false;
 	}
 	
 	void Update () {
         if (Input.GetButtonDown("Fire1"))
         {
-            isFired = true;
-            Debug.Log("Fire!");
+            IsFired = true;
         }
-        if (isFired)
+        if (IsFired)
         {
-            //we want to effect its scale and such
-
+            transform.localScale += Vector3.up * Time.deltaTime * speed;
         }
         else
         {
             transform.position = player.position;
+            transform.localScale = new Vector3(1f, 0f, 1f);
         }
 	}
 }
