@@ -13,6 +13,10 @@ public class Ball : MonoBehaviour {
         {
             GameObject ballRight = Instantiate(nextBall, rb.position + Vector2.right / 4, Quaternion.identity);
             GameObject ballLeft = Instantiate(nextBall, rb.position + Vector2.left / 4, Quaternion.identity);
+
+            //makes no sense that we have to get component ball from inside component ball script
+            ballRight.GetComponent<Ball>().startSpeed = new Vector2(2, 5);
+            ballLeft.GetComponent<Ball>().startSpeed = new Vector2(-2, 5);
         }
 
         Destroy(gameObject);

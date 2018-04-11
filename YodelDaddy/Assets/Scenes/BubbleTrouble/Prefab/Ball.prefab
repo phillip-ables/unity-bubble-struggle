@@ -89,8 +89,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cabd970d1019a964abfdf5baca537a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextBall: {fileID: 1695732529674188}
   rb: {fileID: 50909935889691320}
-  startSpeed: {x: 20, y: 0}
+  startSpeed: {x: 0, y: 0}
 --- !u!212 &212412792995151930
 SpriteRenderer:
   m_ObjectHideFlags: 1
